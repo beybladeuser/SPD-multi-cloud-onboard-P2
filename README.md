@@ -7,7 +7,7 @@
   ```
 1. enter it
   ```
-  Django/bin/activate
+  source Django/bin/activate
   ```
 1. then generate the ssh key and add it to your github profile
 1. type
