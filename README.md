@@ -1,6 +1,6 @@
 # SPD-multi-cloud-onboard-P2
 
-# Set up in cloud
+## Set up in AWS and GCP
 1. create a virtual env
   ```
   python -m venv Django
