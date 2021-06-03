@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'spd-final-project-p2'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_27e95eeec71c4292a4b5d519a5dc8bb3 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_fecc75c34bd946ec8b792d113a451370 }}
