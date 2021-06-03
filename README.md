@@ -1,6 +1,6 @@
 # SPD-multi-cloud-onboard-P2
 
-## Set up in AWS and GCP
+## Set up in cloud
 1. create a virtual env
   ```
   python -m venv Django
@@ -32,6 +32,7 @@
   ```
   python3 manage.py loaddata fixtures.json
   ```
+### runing in AWS and GDP
 1. run the server
   ```
   python3 manage.py runserver 0.0.0.0:8000
@@ -44,5 +45,19 @@
   ```
   kill <processID>
   ```
+  
+  ### runing in Azure
+1. start the web app
+  ```
+  cd ..
+  ```
+  ```
+  az webapp up --sku B1 --name spd-final-project-p2
+  ```
+2. go to spd-final-project-p2 configurations>general settings and type the following in the Startup Command field:
+  ```
+  gunicorn --bind=0.0.0.0 --timeout 600 spd_final_project_p2.wsgi
+  ```
+4. hust go to the given url
   
   
