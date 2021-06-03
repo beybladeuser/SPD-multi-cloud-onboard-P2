@@ -1,0 +1,9 @@
+pylint
+pylint-runner
+pytest
+pytest-cov
+black
+Django
+django-crispy-forms
+django-tables2
+django-filter
