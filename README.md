@@ -61,4 +61,10 @@ this is assuming that you added the ssh keys like its specified in [part one]
   ```
 4. hust go to the given url
   
+# Azure setup and run
+in azure its complitly diferent so for simplicity sake just follow the following tutorial:
+https://www.youtube.com/watch?v=0wWjGV3zva4&ab_channel=GLUGMVIT
+
+a protip is that whatever you commit to this repo, azure will only update after the github action is complete, as its that what releases the current commit into the web app, and that takes a while
+  
   [part one]: https://github.com/beybladeuser/SPD-multi-cloud-onboard
