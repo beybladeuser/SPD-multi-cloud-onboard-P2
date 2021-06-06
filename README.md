@@ -1,6 +1,7 @@
 # SPD-multi-cloud-onboard-P2
 
 ## Set up in cloud
+this is assuming that you added the ssh keys like its specified in [part one]
 1. create a virtual env
   ```
   python -m venv Django
@@ -60,4 +61,4 @@
   ```
 4. hust go to the given url
   
-  
+  [part one]: https://github.com/beybladeuser/SPD-multi-cloud-onboard
