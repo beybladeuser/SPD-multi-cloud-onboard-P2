@@ -47,20 +47,6 @@ this is assuming that you added the ssh keys like its specified in [part one]
   kill <processID>
   ```
   
-  ### runing in Azure
-1. start the web app
-  ```
-  cd ..
-  ```
-  ```
-  az webapp up --sku B1 --name spd-final-project-p2
-  ```
-2. go to spd-final-project-p2 configurations>general settings and type the following in the Startup Command field:
-  ```
-  gunicorn --bind=0.0.0.0 --timeout 600 spd_final_project_p2.wsgi
-  ```
-4. hust go to the given url
-  
 # Azure setup and run
 in azure its complitly diferent so for simplicity sake just follow the following tutorial:
 https://www.youtube.com/watch?v=0wWjGV3zva4&ab_channel=GLUGMVIT
