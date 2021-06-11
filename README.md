@@ -35,6 +35,8 @@ this is assuming that you added the ssh keys like its specified in [part one]
   ```
 ### runing in AWS and GDP
 1. run the server
+
+
   ```
   python3 manage.py runserver 0.0.0.0:8000
   ```
