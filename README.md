@@ -56,3 +56,5 @@ https://www.youtube.com/watch?v=0wWjGV3zva4&ab_channel=GLUGMVIT
 a protip is that whatever you commit to this repo, azure will only update after the github action is complete, as its that what releases the current commit into the web app, and that takes a while
   
   [part one]: https://github.com/beybladeuser/SPD-multi-cloud-onboard
+  
+  
